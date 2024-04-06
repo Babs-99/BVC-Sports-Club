@@ -7,7 +7,7 @@ const address = urlParams.get('address');
 const status = urlParams.get('status');
 
 info.innerHTML = `
-    <p><b>Student Number:</b> ${userID}</p>
+    <p><b>User ID:</b> ${userID}</p>
     <p><b>Full Name:</b> ${fullName}</p>
     <p><b>Address:</b> ${address}</p>
     <p><b>Status:</b> ${status}</p>
