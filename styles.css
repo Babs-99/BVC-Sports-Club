@@ -6,14 +6,18 @@
 }
 
 body {
-    background-color: #031a62;
-    color: #fff;
+    background-color: #f0f0f0; 
+    color: #333; 
 }
+
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -23,6 +27,7 @@ body {
 
 .header h1 {
     font-size: 32px;
+    color: #007bff; 
 }
 
 .header img {
@@ -30,14 +35,11 @@ body {
 }
 
 .content {
-    background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .information h2, .registration-form h2 {
-    color: #333;
+    color: #007bff; 
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -49,17 +51,19 @@ body {
 
 .registration-form .form-group {
     margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
 }
 
 .registration-form label {
-    display: block;
+    flex: 1; 
     color: #333;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .registration-form input[type="text"], .registration-form input[type="radio"] {
-    width: 100%;
+    flex: 3; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
