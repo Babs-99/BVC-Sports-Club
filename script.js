@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#radioButton').click(function(event) {
+    $('#formButton').click(function(event) {
         event.preventDefault(); // Prevent default form submission
 
         // Get the selected radio button value
