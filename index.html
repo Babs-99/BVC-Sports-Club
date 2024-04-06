@@ -39,16 +39,16 @@
                         <input type="text" id="address" name="address" required>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group2">
                         <p>Please confirm your status:</p> 
-                        <input type="radio" id="student" name="status" value="Student" required>
-                        <label for="student">Student</label>
-                       
-                        <input type="radio" id="staff" name="status" value="Staff">
-                        <label for="staff">Staff</label>
-     
-                        <input type="radio" id="volunteer" name="status" value="Volunteer">
-                        <label for="volunteer">Volunteer</label>
+                        <label for="student" class="status-label">Student</label>
+                        <input type="radio" id="student" name="status" value="Student" class="status-radio" required>
+                    
+                        <label for="staff" class="status-label">Staff</label>                       
+                        <input type="radio" id="staff" name="status" value="Staff" class="status-radio">
+                        
+                        <label for="volunteer" class="status-label">Volunteer</label>
+                        <input type="radio" id="volunteer" name="status" value="Volunteer" class="status-radio">
                     </div>
 
                     <button type="button" id="formButton">Register</button>

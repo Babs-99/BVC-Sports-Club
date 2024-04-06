@@ -6,14 +6,13 @@
 }
 
 body {
-    background-color: #f0f0f0; 
-    color: #333; 
+    background-color: #031a62;
+    color: #333;
 }
-
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 20px;
     background-color: #fff; 
     border-radius: 8px;
@@ -59,19 +58,20 @@ body {
     flex: 1; 
     color: #333;
     font-weight: bold;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
-.registration-form input[type="text"], .registration-form input[type="radio"] {
+.registration-form input[type="text"] {
     flex: 3; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    margin-right: 10px; 
 }
 
 .registration-form input[type="radio"] {
-    margin-right: 10px;
+    flex: initial; 
 }
 
 .registration-form button {
@@ -87,3 +87,25 @@ body {
 .registration-form button:hover {
     background-color: #0056b3;
 }
+
+.form-group2 {
+    margin-bottom: 20px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.form-group2 p {
+    margin-right: 20px;
+}
+
+.status-label {
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.status-radio {
+    margin-right: 90px;
+}
+
+
