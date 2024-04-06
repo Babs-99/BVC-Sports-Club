@@ -15,7 +15,7 @@ $(document).ready(function() {
             type: 'POST',
             dataType: 'json',
             url: 'http://localhost:3000/register',
-            // url: 'https://registrationwebsitebackend-2.onrender.com',
+            // url: 'https://backend2-7arj.onrender.com/',
             
             data: { 
                 userID: userID,
