@@ -14,8 +14,8 @@ $(document).ready(function() {
         $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: 'http://localhost:3000/register',
-            // url: 'https://backend2-7arj.onrender.com/',
+            // url: 'http://localhost:3000/register',
+            url: 'https://backend2-7arj.onrender.com/register',
             
             data: { 
                 userID: userID,
