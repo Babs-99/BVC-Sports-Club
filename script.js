@@ -24,7 +24,7 @@ $(document).ready(function() {
                 status: status },
             success: function(response) {
                 console.log('Data saved successfully:', response);
-                window.location.href = '/page/index.html?userID=' + encodeURIComponent(response.userID) +
+                window.location.href = 'page/index.html?userID=' + encodeURIComponent(response.userID) +
                 '&fullName=' + encodeURIComponent(response.fullName) +
                 '&address=' + encodeURIComponent(response.address) +
                 '&status=' + encodeURIComponent(response.status);
